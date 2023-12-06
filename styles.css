@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+}
+h1{
+  color: white;
+}
+
+.calculator {
+  width: 300px;
+  margin: 50px auto;
+  border: 2px solid #ccc;
+  padding: 30px;
+  text-align: center;
+  background-color: rgb(4, 2, 2);
+
+#display {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  border: none;
+  box-sizing: border-box;
+}
+
+.keys button {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  font-size: 18px;
+  background-color: black; /* Change button color to a green shade */
+  color: white;
+  
+}
+
